@@ -1,8 +1,8 @@
-section {
+.animation-section {
     position: relative;
     margin: 100px auto;
     width: 600px;
-    border: 1px solid green;
+    border: 3px solid transparent;
 }
 .circle {
     position: relative;
@@ -12,7 +12,10 @@ section {
     border-radius: 200px;
     background-color: green;
 }
-p {
+.name {
+    color: blueviolet;
+}
+.animation-name {
     text-align: center;
     text-transform: capitalize;
 }
